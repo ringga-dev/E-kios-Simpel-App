@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">E-Kios</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="line"><strike>Rp 1.000.000</strike> Rp 500.000</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoicmluZ2dhZGV2OTciLCJhIjoiY2t0aHlwNmViMHd3aDJ6cW5rZDE0N3RrYyJ9.yNc4BwWT45ZnF8JO6mpC9w</string>
+
+    <string name="user_location_permission_explanation">Akses lokasi dibutuhkan agar dapat menajalankan fitur peta dengan baik</string>
+    <string name="user_location_permission_not_granted">Akses lokasi dibututhkan</string>
+
+    <string name="new_location">Lokasi baru, Lat: %1$s , Lng: %2$s</string>
+
+    <string-array name="planets_array">
+        <item>ALL</item>
+        <item>DI TERIMA</item>
+        <item>DI PESAN</item>
+        <item>DI BATALKAN</item>
+        <item>DI KIRIM</item>
+    </string-array>
+
+</resources>

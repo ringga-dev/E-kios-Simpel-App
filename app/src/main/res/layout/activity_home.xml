@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="10dp"
+        android:id="@+id/rv_produc"
+        tools:listitem="@layout/item_produc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"/>
+
+    <LinearLayout
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+        <ImageView
+            android:id="@+id/ic_history"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/ic_history"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+
+        <ImageView
+            android:id="@+id/ic_news"
+            android:background="@drawable/ic_news"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+
+        <ImageView
+            android:id="@+id/ic_keranjang"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/ic_shopping_cart"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+
+        <ImageView
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/ic_profile"
+            android:background="@drawable/ic_profile"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+</LinearLayout>
